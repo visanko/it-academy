@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'casper';
+    font-style: normal;
+    src: url(BlackCasper.ttf);
+}
+
+body {
+    color: #000000;
+}
+
+div {
+    font-family: 'Open Sans', sans-serif;;
+    border: solid #7FFFD4 1px;
+}
+
+ul {
+    font-family:'casper';
+}
+
+.last {
+    color: #000000;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+}

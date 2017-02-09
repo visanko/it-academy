@@ -1,0 +1,22 @@
+/*body {color: #000000;}*/
+/*div { font-family: cursive;*/}
+/*ul { font-family: 'Open Sans', sans-serif;}*/
+/*.last {color: #000000;*/
+    /*text-align: justify;*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    /*font-size: 0.7em;}*/
+@font-face
+{
+    font-family: 'Yesteryear';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        url(http://themes.googleusercontent.com/static/fonts/yesteryear/v2/Y-2_3oNnGXTRT4ySJQfhEFQlYEbsez9cZjKsNMjLOwM.eot);
+    src:
+        local('Yesteryear'),
+        local('Yesteryear-Regular'),
+        url(http://themes.googleusercontent.com/static/fonts/yesteryear/v2/Y-2_3oNnGXTRT4ySJQfhEFQlYEbsez9cZjKsNMjLOwM.eot) format('embedded-opentype'),
+        url(http://themes.googleusercontent.com/static/fonts/yesteryear/v2/Y-2_3oNnGXTRT4ySJQfhEBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+
+

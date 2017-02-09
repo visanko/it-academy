@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-size: 15px;
+    line-height: 110%;
+    margin: 1% 10% 30%;
+    width: 35em;
+}
+h1 {
+    margin: 0;
+    padding-top: 5%;
+    font-weight: bolder;
+    color: #778899;
+}
+
+h2 {
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-align: center;
+    padding-top: 5px;
+    color: #808080;
+}
+
+p {
+    text-align: center;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.telo {
+    border-style: none;
+    width: 95%;
+    margin: auto;
+}
+
+.stih {
+    font-family: 'Marck Script', cursive;
+    font-size: 1.2em;
+    line-height: 90%;
+    padding-left: 1em;
+    text-align: left;
+    color: #708090;
+}
+.rama {
+    background-color: beige;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dashed;
+    border-color: rgb(240, 128, 128);
+    border-width: 3px;
+}
