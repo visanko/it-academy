@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+       /*background-repeat: repeat;*/
+    /*это значение по умолчанию*/
+}
+
+div {
+    background-image: url(img/bg1.png);
+    margin: 10%;
+    width: 60vw;
+    height: 70vh;}
+table {
+     width: 80%;
+     border-collapse: collapse;
+}
+.k { background-image: url(img/pencil-bg.png);
+background-repeat: repeat-x;
+     height: 24px;
+  
+}
+
+.g {
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: left;
+        height: 24px;
+      width: 34px;}
+      
+.otstupy{ height: 200px;}
+

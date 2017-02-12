@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+}
+
+div {
+    margin: 10%;
+    width: 100vw;
+    height: 100vh;
+font-family: 'Permanent Marker', cursive;
+}
+
+table {
+    border-color: rgb(255, 0, 255);
+    border-style: double;
+    border-collapse: collapse;
+    width: 420px;
+    height: 420px;
+}
+
+th {
+    background-color: rgb(112, 128, 144);
+    width: 20px;
+}
+
+.aidi {
+    width: 50px;
+    height: 20px;
+}
+
+.black {
+    background-color: rgba(32, 178, 170, 1);
+    width: 50px;
+    height: 50px;
+}
+
+.white {
+    background-color: rgba(245, 255, 250, 1);
+    width: 50px;
+    height: 50px;
+}
+
+#peshkab {
+    background-image: url(img/chess.png);
+    background-position: -259px 2px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+#turab {
+    background-image: url(img/chess.png);
+    background-position: 200px 2px;
+    background-repeat: repeat-x;
+    vertical-align: middle;
+}
+
+#konb {
+    background-image: url(img/chess.png);
+    background-position: 93px 2px;
+    background-repeat: repeat-x;
+    vertical-align: middle;
+}
+
+#slonb {
+    background-image: url(img/chess.png);
+    background-position: 147px 2px;
+    background-repeat: repeat-x;
+    vertical-align: middle;
+}
+
+#ferzb {
+    background-image: url(img/chess.png);
+    background-position: -48px 2px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+#korolb {
+    background-image: url(img/chess.png);
+    background-position: 6px 2px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+#peshkaw {
+    background-image: url(img/chess.png);
+    background-position: -259px -52px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+#turaw {
+    background-image: url(img/chess.png);
+    background-position: 200px -52px;
+    background-repeat: repeat-x;
+    vertical-align: middle;
+}
+
+#konw {
+    background-image: url(img/chess.png);
+    background-position: 93px -52px;
+    background-repeat: repeat-x;
+    vertical-align: middle;
+}
+
+#slonw {
+    background-image: url(img/chess.png);
+    background-position: 147px -52px;
+    background-repeat: repeat-x;
+    vertical-align: middle;
+}
+
+#ferzw {
+    background-image: url(img/chess.png);
+    background-position: -48px -52px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+#korolw {
+    background-image: url(img/chess.png);
+    background-position: 6px -52px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
