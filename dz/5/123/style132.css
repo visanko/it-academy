@@ -1,0 +1,4 @@
+body {margin: 0; width: 30px; height: 10px;}
+.one {float: left; width: 10px;}
+.two { float: right;}
+.three {float: left;}

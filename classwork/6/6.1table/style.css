@@ -1,0 +1,23 @@
+table {
+    width: 100vw;
+    height: 100vh;
+    border-collapse: collapse;
+}
+p {text-align: justify;}
+
+.header,.footer {
+    background-color: rgb(255, 255, 170);
+    height: 10vh;
+}
+
+.left {
+    background-color: rgb(70, 130, 180);
+    height: 80vh;
+    width: 20vw;
+}
+
+.content {
+    background-color: rgb(255, 255, 255);
+   padding: 10px;
+}
+

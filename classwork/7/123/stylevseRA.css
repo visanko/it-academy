@@ -1,0 +1,28 @@
+body {margin: 0;}
+
+body>div {position: relative;}
+div>div {position: absolute;}
+
+._123 .one {left: 10px; top: 10px;}
+._123 .two {left: 20px; top: 10px;}
+._123 .three {left: 30px; top: 10px;}
+
+._132 .one {left: 10px; top: 30px;}
+._132 .two { left: 30px; top: 30px;}
+._132 .three {left: 20px; top: 30px;}
+
+._213 .one {left: 20px; top: 50px;}
+._213 .two { left: 10px; top: 50px;}
+._213 .three {left: 30px; top: 50px;}
+
+._231 .one {left: 30px; top: 70px;}
+._231 .two {left: 10px; top: 70px;}
+._231 .three {left: 20px; top: 70px;}
+
+._312 .one {left: 20px; top: 90px;}
+._312 .two {left: 30px; top: 90px;}
+._312 .three {left: 10px; top: 90px;}
+
+._321 .one {left: 30px; top: 110px;}
+._321 .two { left: 20px; top: 110px;}
+._321 .three {left: 10px; top: 110px;}

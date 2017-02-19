@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+}
+
+body>div {
+    position: relative;
+    margin: 10%;
+    border-color: rgb(255, 0, 255);
+    border-style: double;
+    width: 400px;
+    height: 400px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.A,
+.B,
+.C,
+.D,
+.E,
+.F,
+.G,
+.H {
+    position: relative;
+    width: 50px;
+    height: 400px;
+}
+
+.B {
+    left: 50px;
+    margin-top: -400px;
+}
+
+.C {
+    left: 100px;
+    margin-top: -400px;
+}
+
+.D {
+    left: 150px;
+    margin-top: -400px;
+}
+
+.E {
+    left: 200px;
+    margin-top: -400px;
+}
+
+.F {
+    left: 250px;
+    margin-top: -400px;
+}
+
+.G {
+    left: 300px;
+    margin-top: -400px;
+}
+
+.H {
+    left: 350px;
+    margin-top: -400px;
+}
+
+.black {
+    background-color: rgba(32, 178, 170, 1);
+    width: 50px;
+    height: 50px;
+}
+
+.white {
+    background-color: rgba(245, 255, 250, 1);
+    width: 50px;
+    height: 50px;
+}
+
+.peshkab,
+.peshkaw,
+.turab,
+.turaw,
+.konb,
+.konw,
+.slonb,
+.slonw,
+.ferzb,
+.ferzw,
+.korolb,
+.korolw {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.korolw {background-image: url(img/chess.png);
+    background-position: 4px -49px;
+    background-repeat: no-repeat;
+}
+.korolb {background-image: url(img/chess.png);
+    background-position: 4px 4px;
+    background-repeat: no-repeat;
+}
+.ferzw {background-image: url(img/chess.png);
+    background-position: -48px -49px;
+    background-repeat: no-repeat;
+}
+.ferzb {background-image: url(img/chess.png);
+    background-position: -48px 4px;
+    background-repeat: no-repeat;
+}
+.turaw {background-image: url(img/chess.png);
+    background-position: -102px -49px;
+    background-repeat: no-repeat;
+}
+.turab {background-image: url(img/chess.png);
+    background-position: -102px 4px;
+    background-repeat: no-repeat;
+}
+.slonw {background-image: url(img/chess.png);
+    background-position: -156px -49px;
+    background-repeat: no-repeat;
+}
+.slonb {background-image: url(img/chess.png);
+    background-position: -156px 4px;
+    background-repeat: no-repeat;
+}
+.konw {background-image: url(img/chess.png);
+    background-position: -208px -49px;
+    background-repeat: no-repeat;
+}
+.konb {background-image: url(img/chess.png);
+    background-position: -208px 4px;
+    background-repeat: no-repeat;
+}
+.peshkaw {background-image: url(img/chess.png);
+    background-position: -262px -49px;
+    background-repeat: no-repeat;
+}
+.peshkab {background-image: url(img/chess.png);
+    background-position: -262px 4px;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,31 @@
+body {margin: 0;}
+
+body>div {position: relative;}
+div>div {position: relative; 
+ width: 60px; height: 30px;
+ }
+
+
+._123 .one {left: 10px; }
+._123 .two {left: 20px; margin-top:-30px;}
+._123 .three {left: 30px; margin-top:-30px; }
+
+._132 .one {left: 10px; }
+._132 .two { left: 30px; margin-top:-30px;}
+._132 .three {left: 20px; margin-top:-30px;}
+
+._213 .one {left: 20px; }
+._213 .two { left: 10px; margin-top:-30px;}
+._213 .three {left: 30px; top: -30px;}
+/*можно с margin top а можно с top */
+._231 .one {left: 30px; top: -30px;}
+._231 .two {left: 10px; top: -60px;}
+._231 .three {left: 20px; top: -90px;}
+
+._312 .one {left: 20px; }
+._312 .two {left: 30px; margin-top:-30px;}
+._312 .three {left: 10px; margin-top:-30px;}
+
+._321 .one {left: 30px; }
+._321 .two { left: 20px; margin-top:-30px;}
+._321 .three {left: 10px; margin-top:-30px;}

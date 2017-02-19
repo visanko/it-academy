@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+._1 {
+    clear: both;
+}
+
+.TL {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.ramkaXT {
+    margin: 0;
+    width: calc(100vw - 200px);
+    height: 100px;
+    background-image: url(img/ramkaX.png);
+    background-position: top;
+    background-repeat: repeat-x;
+    float: left;
+}
+
+.TR {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+._2 {
+    clear: both;
+}
+
+.ramkaYL {
+    margin: 0;
+    float: left;
+    background-image: url(img/ramkaY.png);
+    background-repeat: repeat-y;
+}
+
+.tekst {
+    text-align: justify;
+}
+.tekst>div {
+    margin: 0 auto 0 auto;
+    width: 70%;
+}
+
+.ramkaYR {
+    margin: 0;
+    float: right;
+    background-image: url(img/ramkaY.png);
+    background-position: right;
+    background-repeat: repeat-y;
+}
+
+._3 {
+    clear: both;
+}
+
+.BL {
+    margin: 0;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.ramkaXB {
+    margin: 0;
+    width: calc(100vw - 200px);
+    height: 100px;
+    background-image: url(img/ramkaX.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    float: left;
+}
+
+.BR {
+    margin: 0px;
+    float: left;
+    width: 100px;
+    height: 100px;
+}

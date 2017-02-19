@@ -1,0 +1,25 @@
+body {margin: 0; width: 30px; height: 10px;}
+/*стили для 123*/
+/*.one {float: left;}*/
+/*.two {float: left;}*/
+/*.three {float: left;}*/
+/*стили для 132*/
+/*.one {float: left;}*/
+/*.two { float: right;}*/
+/*.three {float: left;}*/
+/*стили для 213*/
+/*.one {float: left; margin-left: 10px;}*/
+/*.two { float: left; margin-left: -20px;}*/
+/*.three {float: right;}*/
+/*стили для 231*/
+/*.one {float: right;width: 10px;}*/
+/*.two { float: left; width: 10px; }*/
+/*.three {clear: none;}*/
+/*стили для 312*/
+/*.one {float: left; margin-left: 10px;}*/
+/*.two { float: right;}*/
+/*.three {float: left; margin-left: -20px;}*/
+/*стили для 321*/
+/*.one {float: right; width: 10px;}*/
+/*.two { float: right; width: 10px;}*/
+/*.three {float: left; width: 10px;}*/

@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    width: 80vw;
+    height: 80vh;
+   
+}
+
+.TL {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.TR {
+    margin-right: 0;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+
+
+.BL {
+    margin: 0;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.BR {
+    margin-right: 0px;
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+h1 { background-color: rgb(255, 255, 255);
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+      padding-left: 10px;
+    text-align: justify;
+    overflow-x: hidden;
+}
+div {
+    overflow: hidden;
+    width: 80vw;
+        margin: 0;
+        margin-right: 40px;
+    background-image: url(img/ramkaY.png);
+    background-repeat: repeat-y;
+}
+
+
+
+p { background-color: rgb(255, 255, 255);
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+padding-left: 20px;
+padding-right: 20px;
+    text-align: justify;
+}
+
+ol { background-color: rgb(255, 255, 255);
+margin-left: 38px;
+margin-right: 38px;
+margin-top: 0px;
+margin-bottom: 0px;
+    padding-left: 60px;
+}
+.pustot { background-image: url(img/ramkaX.png);
+    background-repeat: repeat-x;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 40px;
+    float: none;
+    }
+.pustob { background-image: url(img/ramkaX.png);
+    background-repeat: repeat-x;
+    margin-top: 64px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 40px;
+    float: none;
+    }
+.pustor { background-image: url(img/ramkaY.png);
+    background-repeat: repeat-y;
+    margin-right: -43px;
+    width: 40px;
+    height: 100vh;
+    float: right;
+       }

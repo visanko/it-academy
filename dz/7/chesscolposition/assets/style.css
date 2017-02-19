@@ -1,0 +1,61 @@
+body {margin: 0%;
+   font-family: 'Lobster', cursive;
+}
+
+/*p,a {position: absolute;}*/
+
+
+
+.nameMB,.nameAK,.nameHK {position: absolute;
+    font-family: 'EB Garamond', serif;
+font-size: 200%;
+    color: black;
+ font-weight: bold;
+}
+.nameMB {left: 30px; top: 5px;}
+.nameAK {left: 30px; top: 40px;}
+.nameHK {left: 30px; top: 75px;}
+
+.birthMB,.birthAK,.birthHK {position: absolute;
+    font-family: 'EB Garamond', serif;
+    font-size: 120%;
+    color: rgb(50, 205, 50);}
+    
+.birthMB {left: 30px; top: 140px;}
+.birthAK {left: 30px; top: 170px;}
+.birthHK {left: 30px; top: 200px;}
+
+.victoryMB,.victoryAK,.victoryHK {position: absolute;
+    font-family: 'EB Garamond', serif;
+    font-size: 120%;
+    color: rgb(219, 112, 147);}
+.victoryMB {left: 30px; top: 240px;}
+.victoryAK {left: 30px; top: 270px;}
+.victoryHK {left: 30px; top: 300px;}
+
+
+
+p { position: relative;
+    text-align: justify;
+    font-style: normal;
+    font-size: 14px;
+    color: rgb(70, 130,180);
+    width: 90vw;}
+
+#infoMB,#infoAK,#infoMB {position: relative;}
+#infoMB {left: 30px; top: 450px;}
+#infoAK {left: 30px; top: 470px;}
+#infoHK {left: 30px; top: 490px;}
+
+.begin {position: relative;
+    margin: 0;
+white-space: nowrap;
+  margin-top: 5vh;
+  margin-left: 0px;
+}
+.MB,.AK,.HK {position: absolute;}
+.MB {left: 30px; top: 360px;}
+.AK {left: 30px; top: 390px;}
+.HK {left: 30px; top: 420px;}
+
+

@@ -1,0 +1,62 @@
+body {margin: 0%;
+   font-family: 'Lobster', cursive;
+   /*overflow-x: auto;*/
+
+}
+
+p,a {margin-left: 2vw;
+    position: absolute;
+    
+}
+
+.nameMB {left: 1vw; top: 10px;}
+.nameAK {left: 32vw; top: 10px;}
+.nameHK {left: 63vw; top: 10px;
+}
+
+.nameMB,.nameAK,.nameHK {
+    font-family: 'EB Garamond', serif;
+font-size: 200%;
+    color: black;
+ font-weight: bold;
+}
+
+.birthMB,.birthAK,.birthHK {
+    font-family: 'EB Garamond', serif;
+    font-size: 120%;
+    color: rgb(50, 205, 50);}
+    
+.birthMB {left: 1vw; top: 100px;}
+.birthAK {left: 32vw; top: 100px;}
+.birthHK {left: 63vw; top: 100px;}
+
+.victoryMB,.victoryAK,.victoryHK {font-family: 'EB Garamond', serif;
+    font-size: 120%;
+    color: rgb(219, 112, 147);}
+.victoryMB {left: 1vw; top: 150px;}
+.victoryAK {left: 32vw; top: 150px;}
+.victoryHK {left: 63vw; top: 150px;}
+
+.MB {left: 1vw; top: 250px;}
+.AK {left: 32vw; top: 250px;}
+.HK {left: 63vw; top: 250px;}
+
+
+p { text-align: justify;
+    font-style: normal;
+    font-size: 14px;
+    color: rgb(70, 130,180);
+    width: 30vw;}
+#infoMB {left: 1vw; top: 270px;}
+#infoAK {left: 32vw; top: 270px;}
+#infoHK {left: 63vw; top: 270px;
+   
+}
+
+.begin {position: relative;
+    margin: 0;
+white-space: nowrap;
+  margin-top: 5vh;
+  margin-left: 0px;
+}
+

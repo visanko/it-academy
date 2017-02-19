@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.maket {
+    background-color: rgb(70, 130, 180);
+}
+
+.header,
+.footer {
+    background-color: rgb(255, 255, 170);
+    width: 100vw;
+    height: 10vh;
+}
+
+.left {
+    background-color: rgb(70, 130, 180);
+    width: 20vw;
+    height: 80vh;
+    float: left;
+}
+
+.content {
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-left: 20vw;
+    border: 1px solid red;
+}
+
+.footer {
+    clear: both;
+}
