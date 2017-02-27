@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>MAKET_FORM</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="main">
+        <form action="mailto:ejevi4na@gmail.com" enctype="text/plain">
+            <!--<form action="handler.php" method="post">-->
+            <p>Для публикации вашей статьи, заполните пожалуйста следующую форму:</p>
+            <p>Название статьи:</p>
+            <p><input type="text" name="called" placeholder="Введите название статьи" required></p>
+            <p>Рубрика:</p>
+            <select name="topic" required>
+                <option value="program">программирование</option>
+                <option value="science">наука</option>
+                <option value="art">искусство</option>
+              </select>
+            <p>Публикация:</p>
+           <p><input type="radio" name="public" value="web" required/>на сайте</p>
+            <p><input type="radio" name="public" value="magazin" />в журнале</p>
+            <p><input type="radio" name="public" value="web_magazin" />на сайте и в журнале</p>
+            <p>Разрешить комментарии<input type="checkbox" value="comment" checked/></p>
+            <p>Текст статьи</p>
+            <p><textarea name="text" placeholder="Введите текст статьи" required></textarea></p>
+            <p><input type="submit" value="Опубликовать"></p>
+        </form>
+    </div>
+
+</body>
+
+</html>

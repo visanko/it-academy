@@ -1,0 +1,45 @@
+body {
+    margin: 3%;
+    font-family: 'EB Garamond', serif;
+}
+
+p {
+    text-align: justify;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.name {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.birth {
+    font-size: 120%;
+}
+
+.victory {
+    font-size: 120%;
+}
+
+p:nth-of-type(2n+1) {
+    color: rgb(255, 12, 8)
+}
+
+p:nth-of-type(2n) {
+    color: rgb(0, 0, 255)
+}
+
+a:hover {
+    font-size: 200%;
+
+}
+
+p:nth-of-type(2n)::first-letter {
+    color: rgb(60, 179, 90);
+}
+
+a::before {content: "→" ;}
+a::after {content: "←";}
+
+p>a{color: inherit;}

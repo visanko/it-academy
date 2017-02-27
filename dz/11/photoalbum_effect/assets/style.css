@@ -1,0 +1,151 @@
+body {background-color: rgb(211, 211, 211);
+    color: rgb(0,0,128);
+}
+
+.main {position: relative;
+    margin: auto;
+    margin-top: 0;
+    width: 80%;
+    font-family: 'Marck Script', cursive;
+   }
+
+img {
+    position: relative;
+    left: 0px;
+    top: 20px;
+    width: 680px;
+   }
+
+.navigation {position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+input:checked~img {
+    display: block;
+}
+input:checked~label {
+    display: block;
+}
+input:checked~label:nth-of-type(3)>div {
+    background-color: rgb(240, 128, 128);
+    border: solid rgb(255,0,20);
+        -webkit-transition: 4s;
+        transition: 4s;
+}
+
+div label {display: none;}
+input~img {display: none;}
+input {display: none;
+    }
+
+div>label:nth-of-type(1) {
+    position: absolute;
+    left: -30px;
+    top: 220px;
+}
+div>label:nth-of-type(2) {
+    position: absolute;
+    left:689px;
+    top: 200px;
+}
+div>label:nth-of-type(4) {
+    position: absolute;
+    left: 0px;
+    top: 520px;
+
+}
+
+.krug>div {position: relative;
+margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    border: solid rgb(255,105,180);
+    border-radius: 10px;
+    }
+
+.krug {position: absolute;
+display: inline-block;
+width: 20px;
+height: 20px;
+}
+.back {margin: auto;
+    position: relative;
+    width: 25px;
+    height: 20px;
+}
+
+.back :first-child {margin: 0;
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    border-bottom: solid rgb(240, 128, 128) 6px;
+    border-left: solid rgb(240, 128, 128) 6px;
+}
+
+.back :last-child {margin: 0;
+    position: absolute;
+    left: -14px;
+    top: -1px;
+    width: 23px;
+    height: 23px;
+    border-radius: 3px;
+    border-right: solid rgb(240, 128, 128) 6px;
+}
+.next {margin: auto;
+margin-top: 20px;
+    position: relative;
+    width: 25px;
+    height: 20px;
+}
+
+.next :first-child {margin: 0;
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    border-top: solid rgb(240, 128, 128) 6px;
+    border-right: solid rgb(240, 128, 128) 6px;
+}
+
+.next :last-child {margin: 0;
+    position: absolute;
+    left: 6px;
+    top: -1px;
+    width: 23px;
+    height: 23px;
+    border-radius: 3px;
+    border-left: solid rgb(240, 128, 128) 6px;
+}
+.krug>div:hover {
+border: solid rgb(255,0,20);
+  -webkit-transition-duration: 5s;
+          transition-duration: 5s;
+}
+.back:hover {-webkit-transform: scale(0.1);transform: scale(0.1);
+  -webkit-transition-duration: 5s;
+          transition-duration: 5s;
+}
+.next:hover {-webkit-transform: scale(0.1);transform: scale(0.1);
+  -webkit-transition-duration: 5s;
+          transition-duration: 5s;}
+
+img:hover {-webkit-transform: scale(1.1);transform: scale(1.1);
+-webkit-transition-delay: 1s;
+        transition-delay: 1s;
+    -webkit-transition-duration: 6s;
+            transition-duration: 6s;
+    -webkit-transition-timing-function: ease-in;
+            transition-timing-function: ease-in;
+} 
+.krug.odin {left: 300px;
+top: 500px;}
+.krug.dva {left: 330px;
+top: 500px;}
+.krug.tri {left: 360px;
+top: 500px;}

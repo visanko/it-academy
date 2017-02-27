@@ -1,0 +1,40 @@
+
+.kvad {position: absolute;
+    height: 40px;
+    width: 40px;
+   border: solid rgb(12,128,128);
+    background-color: rgb(255,128,128);
+}
+.circl {position: absolute;
+    height: 80px;
+    width: 80px;
+   border: solid rgb(255,128,128);
+    background-color: rgb(12,128,128);
+    border-radius: 80px;
+}
+   @keyframes kwadro {0% {top: 0; left: 0;}
+      20% {top: 50vh; left: 50vw;} 
+       40% {top: 15vh; left: 10vw;}
+       60% {top: 5vh; left: 30vw;}
+       80% {top: 50vh; left: 50vw;}
+       100% {top: 0; left: 0;}}
+       
+ @keyframes krug {0% {top: 0; left: 0;}
+      20% {top: 50vh; left: 50vw;} 
+       40% {top: 15vh; left: 10vw;}
+       60% {top: 5vh; left: 30vw;}
+       80% {top: 50vh; left: 50vw;}
+       100% {top: 0; left: 0;}       
+          }
+.kvad {animation: kwadro 8s infinite;}
+.circl {animation: krug 20s infinite;}      
+
+.kvad:hover { border: solid rgb(255,128,128);
+    background-color: rgb(12,128,128);
+    transform: scale(2);
+    transform: skew(-15deg);
+}
+.circl:hover { border: solid rgb(12,128,128);
+    background-color: rgb(255,128,128);
+    transform: skew(15deg);
+}    

@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+.a[class*=" "] {border:solid red 2px;
+    background-color: blue;
+    width: 100px;
+    height: 100px;}
+div:nth-of-type(1):after {content:"a b c"; color: white;}
+div:nth-of-type(2):after {content:"b c a"; color: white;}
+div:nth-of-type(3):after {content:"c c a"; color: white;}
+div:nth-of-type(5):after {content:"c a b"; color: white;}
