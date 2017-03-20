@@ -1,0 +1,10 @@
+@media (max-width:767px) {
+  li {display: inline-block;}
+.sidebar,.center {background-color: rgb(255,255,255);}
+}
+img {margin-right: 10px;}
+.header,.footer {background-color: rgb(173,216,230);}
+.sidebar,.center {background-color: rgb(238,232,170);}
+.content {background-color: rgb(255,255,255);}
+h2, h3 {text-transform: uppercase;}
+

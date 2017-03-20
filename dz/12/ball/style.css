@@ -1,0 +1,107 @@
+body { position: fixed;
+ margin: 0;
+  width: 90vw;
+ height: 90vh;
+ background-color: rgb(255,240,245)
+}
+
+.krug {
+ position: absolute;
+ height: 80px;
+ width: 80px;
+ border-left: solid rgb(100, 149, 229) 3px;
+ border-bottom: solid rgb(100, 149, 229) 3px;
+ border-top: solid rgb(100, 149, 249) 3px;
+ border-right: solid rgb(100, 149, 249) 3px;
+ background-color: rgb(100, 149, 239);
+ border-radius: 80px;
+}
+
+@keyframes ball {
+ 0% {
+  top: 0;
+  left: 0;
+ }
+ 20% {
+  top: 100%;
+  left: 60%;
+ }
+ 25% {
+  top: 99%;
+  left: 61%;
+  transform: rotateX(30deg);
+ }
+ 26% {
+  top: 98%;
+  left: 62%;
+  transform: rotateX(0deg);
+ }
+ 50% {
+  top: 50%;
+  left: 100%;
+ }
+ 52% {
+  top: 49%;
+  left: 99%;
+  transform: rotateY(30deg);
+ }
+ 53% {
+  top: 48%;
+  left: 98%;
+  transform: rotateY(0deg);
+ }
+ 70% {
+  top: 100%;
+  left: 70%;
+ }
+ 71% {
+  top: 99%;
+  left: 69%;
+  transform: rotateX(20deg);
+ }
+ 72% {
+  top: 98%;
+  left: 68%;
+  transform: rotateX(0deg);
+ }
+ 80% {
+  top: 80%;
+  left: 40%;
+ }
+ 85% {
+  top: 100%;
+  left: 15%;
+ }
+ 86% {
+  top: 99%;
+  left: 14%;
+  transform: rotateX(20deg);
+ }
+ 87% {
+  top: 98%;
+  left: 13%;
+  transform: rotateX(0deg);
+ }
+ 90% {
+  top: 95%;
+  left: 10%;
+ }
+ 95% {
+  top: 100%;
+  left: 5%;
+ }
+ 99% {
+  top: 100%;
+  left: 0;
+ }
+ 100% {
+  top: 0;
+  left: 0;
+ }
+}
+
+.krug {
+ animation: ball 5s infinite;
+ animation-timing-function: ease-in;
+}
+

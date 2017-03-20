@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>JS</title>
+ <meta charset="utf-8">
+ <!--<link rel="stylesheet" href="style.css" type="text/css">-->
+<style>
+.outer {
+    width: 200px;
+    height: 200px;
+    
+    text-align: center;
+    background-color: #ffc;
+}
+
+.outer:after {
+    display: inline-block;
+    height: 100%;
+
+    vertical-align: middle;
+    content: "";
+}
+
+.inner {
+    display: inline-block;
+    width: 100px;
+
+    vertical-align: middle;
+    background-color: #fcc;
+}
+</style>
+</head>
+
+<body>
+<!--4) с помощью пседоэлементов
+Суть способа в добавлении внутри внешнего блока строчного блока inline-block высотой в 100%
+и задания ему вертикального выравнивания. В этом случае высота добавленного блока будет 
+равна высоте внешнего блока. Внутренний блок выровняется по вертикали относительно добавленного,
+а значит, и внешнего блока.
+
+Чтобы не нарушать семантику, строчный блок рекомендуется добавить с помощью псевдоэлемента before или after.
+
+Минус данного способа — он не может быть применен, если внутренний блок имеет абсолютное позиционирование.
+-->
+<div class="outer">
+    <div class="inner">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+</div>
+</body>
+
+</html>

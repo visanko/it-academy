@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+.menu {
+  background-color: #f00;
+  position: fixed;
+  height: 40px;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+}
+.content {
+   margin-top: 40px;
+}

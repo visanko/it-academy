@@ -1,0 +1,21 @@
+.main {display: flex;
+flex-direction: row;
+
+}
+.black {width: 10vw; height: 10vw;
+    background-color: rgb(240, 170,170);
+  
+}
+.white {width: 10vw; height: 10vw;
+    background-color: rgb(170, 170,170);
+}
+.black:nth-of-type(1) {order:1;}
+.black:nth-of-type(2) {order:3;}
+.black:nth-of-type(3) {order:5;}
+.black:nth-of-type(4) {order:7;}
+.black:nth-of-type(5) {order:9;}
+.white:nth-of-type(6) {order:2;}
+.white:nth-of-type(7) {order:4;}
+.white:nth-of-type(8) {order:6;}
+.white:nth-of-type(9) {order:8;}
+.white:nth-of-type(10) {order:10;}

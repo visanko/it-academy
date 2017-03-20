@@ -1,0 +1,21 @@
+body {margin: 10%;
+   font-family: 'Lobster', cursive;
+}
+p {text-align: justify;
+    font-style: normal;
+    font-size: 15px;
+    color: blue;
+}
+.name {font-family: 'EB Garamond', serif;
+font-size: 200%;
+    color: black;
+ font-weight: bold;
+    
+}
+.birth {
+    font-family: 'EB Garamond', serif;
+    font-size: 120%;
+    color: green;}
+.victory {font-family: 'EB Garamond', serif;
+    font-size: 120%;
+    color: red;}

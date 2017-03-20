@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>JS</title>
+  <meta charset="utf-8">
+  <!--<link rel="stylesheet" href="style.css" type="text/css">-->
+ 
+</head>
+
+<body>
+  <table cellpadding="10" cellpadding="10" border=2>
+      <tr class="main">
+        <td>страна</td>
+        <td>столица</td>
+        <td>площадь, км<sup>2</sup></td>
+        <td>население, чел.</td>
+      </tr>
+     <tr>
+        <td>Ватикан</td>
+        <td>Ватикан</td>
+        <td>0.44</td>
+        <td>842</td>
+      </tr>
+     <tr>
+        <td>Сан-Марино</td>
+        <td>Сан-Марино</td>
+        <td>61</td>
+        <td>33005</td>
+      </tr>
+      <tr>
+        <td>Мальта</td>
+        <td>Валетта</td>
+        <td>316</td>
+        <td>434403</td>
+      </tr>
+
+<input type="button" value="Чудо" onclick="Tall()">
+
+ <!--<script type="text/javascript" src="assets/script.js"></script>-->
+<script>
+/*1) сделать "зебру" - строки должны через одну 
+быть выделены другим цветом*/
+ 
+ var ELS1=document.querySelectorAll('tr:nth-of-type(odd)');
+ for (var i=0; i<ELS1.length; i++){
+  ELS1[i].style.backgroundColor='rgb(220,220,220)';
+ }
+  var ELS2=document.querySelectorAll('tr:nth-of-type(even)');
+ for (var i=0; i<ELS2.length; i++){
+  ELS2[i].style.backgroundColor='rgb(255,240,245)';
+   
+ }
+ /*2) В первой строке слова должны быть выделены жирным,
+и отцентрированы по горизонтали */
+var ELS3=document.querySelector('tr:first-child');
+ELS3.style.fontWeight='bold';
+ ELS3.style.textAlign='center';
+ 
+ /*3) Первая буква в ячейках первой строки должна быть большой
+и выделена красным цветом */
+var ELS4=document.querySelectorAll('tr:nth-of-type(1)>td');
+ for (var i=0; i<ELS4.length; i++){
+   var str=ELS4[i].innerHTML;
+   var s=str[0];
+   s=s.toUpperCase();
+   var txt="<span style='color: rgb(220,20,60)'>"+s+"</span>";
+   var str1=str.substring(1);
+   ELS4[i].innerHTML=txt+str1;
+}
+
+
+ /* 4) Клик по кнопке должен заменять стиль текста 
+таким образом, чтобы слова были в верхнем регистре.
+Повторный клик - должен возвращать стиль назад, как было.*/
+var ELS5=document.querySelector('table');
+var origstyle=ELS5.style.textTransform;
+var orig=true;
+function Tall() {
+ if (orig){
+  ELS5.style.textTransform='uppercase';
+  orig=false;
+}
+else { ELS5.style.textTransform=origstyle;
+ orig=true;
+}
+ }
+  </script>
+</body>
+
+</html>

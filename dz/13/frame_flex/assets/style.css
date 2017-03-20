@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+   
+}
+
+.one,.two,.three {
+    display: flex;
+    flex-direction: row;
+        justify-content: space-between;
+           }
+.one,.three {height: 100px;}
+
+
+
+.top_X,.bottom_X,.center  {flex-grow: 1;}
+
+
+.Y_left,.Y_right {flex-basis: 37px;
+     background-image: url(img/ramkaY.png);
+height: calc(100vh - 200px);
+}
+
+.top_X, .bottom_X {
+    background-image: url(img/ramkaX.png);
+   height: 37px;
+}
+.top_X {align-self: flex-start;}
+.bottom_X{align-self:  flex-end;}
+

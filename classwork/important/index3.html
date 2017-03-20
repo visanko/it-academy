@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>JS</title>
+ <meta charset="utf-8">
+ <!--<link rel="stylesheet" href="style.css" type="text/css">-->
+<style>
+.outer {
+    position: relative;
+    width: 200px;
+    
+    background-color: #ffc;
+}
+
+.inner {
+    width: 100px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-color: #fcc;
+}
+</style>
+</head>
+
+<body>
+<!--3) высота внутреннего блока неизвестна (с помощью transform):
+Почему в с лучае с margin нельзя было задать значение в процентах?
+Так как процентные значения свойства margin вычисляются относительно
+родительского элемента, значение в 50% равнялось бы половине высоты внешнего блока, а нам нужно было поднять внутренний блок на половину его собственной высоты. Для этого как раз подходит свойство transform.
+-->
+<div class="outer">
+    <div class="inner">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. In illum at consectetur nam rerum asperiores nemo fuga possimus explicabo similique soluta laborum tempore illo dicta deserunt eligendi obcaecati reiciendis laudantium.
+</div>
+</body>
+
+</html>
