@@ -22,24 +22,29 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type=button class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
-          <span class="sr-only">Открыть навигацию</span>
-          <span class="icon-bar"></span>  
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          </button>
-        <a class="navbar-brand" href="index.html#mainmyata"></a>
+        <div class="knopka visible-xs">
+          <input type="checkbox" id="hmt" class="knopka hidden-menu-ticker">
+          <label class="knopka btn-menu" for="hmt">
+  <span class="knopka first"></span>
+  <span class="knopka second"></span>
+  <span class="knopka third"></span>
+</label>
+          <ul class="knopka hidden-menu">
+            <li class="knopka"><a href="index.html#main_myata">на главную</a></li>
+          </ul>
+        </div>
+        <a class="navbar-brand" href="index.html#main_myata"></a>
         <p class="navbar-text smoke">
           <span>H</span><span>o</span><span>o</span><span>k</span><span>a</span><span>h</span><span>-</span><span>i</span><span>s</span><span>-</span><span>i</span><span>n</span><span>-</span><span>o</span><span>u</span><span>r</span><span>-</span><span>D</span><span>N</span><span>А</span>
         </p>
       </div>
-      <div class="collapse navbar-collapse" id="main-menu">
+      <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="index.html#mainmyata">Главная</a></li>
-          <li class="hidden-xs"><a href="#">Контакты</a></li>
+          <li><a href="index.html#main_myata">Главная</a></li>
+          <li class="hidden-xs"><a href="index.html#contacts">Контакты</a></li>
           <li class="hidden-xs"><a href="index.html#map">Карта</a></li>
           <li class="hidden-xs"><a href="#">Афиша</a></li>
           <li class="active"><a href="#">Меню</a></li>
@@ -52,19 +57,367 @@
     </div>
     </div>
   </nav>
-<div class="container-fluid">
-<ul class="nav nav-tabs nav-justify navbar-fixed-top">
-  <li class="active"><a href="#">Кальянное меню</a></li>
-  <li><a href="#">Чайная карта</a></li>
-  <li><a href="#">Кофейная карта</a></li>
-  <li><a href="#">Лимонады, напитки, свежевыжатые соки</a></li>
-  <li><a href="#">Закуски</a></li>
-  <li><a href="#">Десерты</a></li>
-   </ul>
-   <div id="hookah">Кроме непосредственно кальянов (которые здесь будут не только готовить, но и продавать), в заведении предложат чай, кофе, лимонады и безалкогольные коктейли. Тем не менее больше всего внимания владельцы уделили чаю. Готовить его будут чайные мастера.
+  <div class="container-fluid allmenu">
+    <ul class="nav nav-tabs nav-justify navbar-fixed-top menu">
+      <li class="active"><a href="#menu_hookah" data-toggle="tab">Кальянное меню</a></li>
+      <li><a href="#menu_tea" data-toggle="tab">Чайная карта</a></li>
+      <li><a href="#menu_coffee" data-toggle="tab">Кофейная карта</a></li>
+      <li><a href="#menu_drinks" data-toggle="tab">Напитки</a></li>
+      <li><a href="#menu_snacks" data-toggle="tab">Закуски</a></li>
+      <li><a href="#menu_sweets" data-toggle="tab">Десерты</a></li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane fade-in active hookah" id="menu_hookah">
 
-Помимо примерно сорока посадочных мест за столиками разных размеров, в кафе есть два VIP-зала, в каждом из которых сможет поместиться до шести человек. Там гости смогут посмотреть телевизор или поиграть на приставке. За это, правда, придется доплатить около 50 рублей (точную цену владельцы пока не выставили). Кальяны в «Мята Lounge» будут стоить от 23 до 43 рублей.</div>
-   
-   </div>
-    </body>
+        <div class="row">
+          <div class="col-sm-1 hidden-xs"></div>
+          <div class="col-sm-7 col-xs-12">
+            <div class="row">
+              <div class="col-xs-12 ">
+                <blockquote class="blockquote-reverse"><em>
+                  <h4>Забудьте о повседневной суете и насладитесь лучшими кальянами</h4></em></blockquote>
+              </div>
+            </div>
+            <div class="row">
+              <table class="table lead text-left">
+                <tr>
+                  <td>Стандарт &frasl; Standart</td>
+                  <td class="text-right">23p.</td>
+                </tr>
+                <tr>
+                  <td>Премиум &frasl; Premium</td>
+                  <td class="text-right">28p.</td>
+                </tr>
+                <tr>
+                  <td>Кальян на фрукте &frasl; Hookah on fruit</td>
+                  <td class="text-right">33p.</td>
+                </tr>
+                <tr>
+                  <td><span class="badge">ХИТ</span>Ручной табак &frasl; Handmade tobacco</td>
+                  <td class="text-right">43p.</td>
+                </tr>
+                <tr>
+                  <td>Кальян от Шефа &frasl; Hookah from the Chef</td>
+                  <td class="text-right">50p.</td>
+                </tr>
+                <tr>
+                  <td>Вкус недели &frasl; Flavor of the Week</td>
+                  <td class="text-right"></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="col-sm-4 hidden-xs"></div>
+        </div>
+      </div>
+
+
+    <div class="tab-pane fade tea" id="menu_tea">
+       <div class="row">
+            <div class="col-sm-1 hidden-xs"></div>
+            <div class="col-sm-10 col-xs-12">
+               <table class="table lead">
+                  <tr>
+                    <td>Чайная дегустация &frasl; Tea Tasting</td>
+                    <td class="text-right">10p.</td>
+                  </tr>
+                  <tr>
+                    <td>Чай от мастера &frasl; Specialty</td>
+                    <td class="text-right">15p.</td>
+                  </tr>
+                  <tr>
+                    <td><span class="badge">new</span> Чай Masala &mdash; чай, получаемый путём заваривания чая со смесью индийских специй и трав с добавлением молока</td>
+                    <td class="text-right">15p.</td>
+                  </tr>
+                  <tr>
+                    <td>Чай в сифоне &frasl; Tea in the Syphon</td>
+                    <td class="text-right">25p.</td>
+                  </tr>
+                </table>
+            </div>
+            <div class="col-sm-1 hidden-xs"></div>
+        </div>
+       <div class="row">
+            <div class="col-sm-1 hidden-xs"></div>
+            <div class="col-sm-5 col-xs-12">
+               <div class="panel panel-default">
+                <div class="panel-heading">Белый чай &frasl; White tea</div>
+                <div class="panel-body">
+                  Белый Лунный Свет (Юэ Гуан Бай) &frasl; White Moonlight
+                </div>
+                <div class="panel-body">
+                  Почки пуэрных деревьев (Я Бао) &frasl; Wild Puerh Buds
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-5 col-xs-12">
+               <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Зелёный чай &frasl; Green tea</h3>
+                </div>
+                <div class="panel-body">
+                  Колодец дракона (Лун Цзин) &frasl; Dragon Well
+                </div>
+                <div class="panel-body">
+                  Дикорастущий зелёный чай (Е Шэн Люй Ча) &frasl; Wild Grown Green Tea
+                </div>
+                <div class="panel-body">
+                  Серебряный пух с жасмином(Моли Инь Хао) &frasl; Jasmine Silver Buds
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-1 hidden-xs"></div>
+        </div>
+       <div class="row">
+            <div class="col-sm-1 hidden-xs"></div>
+            <div class="col-sm-5 col-xs-12">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Бирюзовый чай &frasl; Oolong tea</h3>
+                </div>
+                <div class="panel-body">
+                  Железная Богиня Милосердия (Те Гуань Инь) &frasl; Iron Goddess
+                </div>
+                <div class="panel-body">
+                  Большой Красный Халат (Да Хун Пао) &frasl; Big Red Robe
+                </div>
+                <div class="panel-body">
+                  Одинокие Кусты с гор Феникса &frasl; Phoenix Single Bush Oolong
+                </div>
+                <div class="panel-body">
+                  Молочный улун &frasl; Milk Oolong
+                </div>
+                <div class="panel-body">
+                  Женьшеневый улун &frasl; Ginseng Oolong
+                </div>
+                <div class="panel-body">
+                  Османтусовый улун &frasl; Osmantus Oolong
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-5 col-xs-12">
+                  <div class="row">
+                   <div class="col-xs-12">
+                     <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Красный чай &frasl; Red tea</h3>
+                    </div>
+                    <div class="panel-body">
+                      Копчёный чай (Лапсанг Сушонг) &frasl; Smoky Red Tea
+                    </div>
+                    <div class="panel-body">
+                      Аромат Лонгана (Хей Гуй Юань Сян) &frasl; Longan Aroma
+                    </div>
+                    <div class="panel-body">
+                      Юньнаньский красный (Дянь Хун) &frasl; Dian Hong
+                    </div>
+                  </div>
+                   </div> 
+                   </div>
+                  <div class="row">
+                   <div class="col-xs-12">
+                     <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Японский чай &frasl; Japanese tea</h3>
+                    </div>
+                    <div class="panel-body">
+                      Сенча &frasl; Sencha
+                    </div>
+                    <div class="panel-body">
+                      Чай с обжаренным рисом (Генмайча) &frasl; Genmaicha
+                    </div>
+                  </div>
+                   </div> 
+                   </div>
+            </div>
+            <div class="col-sm-1 hidden-xs"></div>
+         </div>
+       <div class="row">
+            <div class="col-sm-1 hidden-xs"></div>
+            <div class="col-sm-5 col-xs-12">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Шу Пуэр (черный) &frasl; Ripe Puerh</h3>
+                  </div>
+                  <div class="panel-body">
+                    Цзинь Бан Чжан, 2012г &frasl; Jin Ban Zhang Puerh, 2012
+                  </div>
+                  <div class="panel-body">
+                    Старые Чайные Головы(Лао Ча Тоу) &frasl; Old Tea Nugget
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-5 col-xs-12">
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Шен Пуэр (зелёный) &frasl; Raw Puerh</h3>
+                  </div>
+                  <div class="panel-body">
+                    Юньнань бай ча &frasl; Yunnan Bai Cha Puerh
+                  </div>
+                  <div class="panel-body">
+                    Журавль и сосна, 2014 &frasl; Shadoof & Pine, 2014
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-1 hidden-xs"></div>
+       </div>
+     </div>
+     
+     
+     
+     
+     
+      <!--<div class="row">
+        <div class="col-sm-1 hidden-xs"></div>
+        <div class="col-sm-9 col-xs-12"> 
+                </div>
+        <div class="col-sm-2 hidden-xs tea_foto"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-1 hidden-xs"></div>
+        <div class="col-sm-10 col-xs-12">
+          <div class="row">
+            <div class="col-sm-6 col-xs-12">
+             
+            </div>
+
+            <div class="col-sm-6 col-xs-12">
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 hidden-xs"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-1 hidden-xs"></div>
+        <div class="col-sm-10 col-xs-12">
+          <div class="row">
+            <div class="col-sm-6 col-xs-12">
+              
+            </div>
+            <div class="col-sm-6 col-xs-12">
+              <div class="row">
+                <div class="col-xs-12">
+                  </div>
+                </div>
+                <div class="col-xs-12">
+                   </div>
+                </div>
+            </div>
+            
+            
+            
+            
+          </div>
+        </div>
+        <div class="col-sm-1 hidden-xs"></div></div>
+      <div class="row">
+        <div class="col-sm-1 hidden-xs"></div>
+        <div class="col-sm-10 col-xs-12">
+          <div class="row">
+             <div class="col-sm-6 col-xs-12">
+               
+              </div>
+              <div class="col-sm-6 col-xs-12">
+                
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-1 hidden-xs"></div>
+      </div>
+      </div>
+            <div class="row">
+            </div>
+          </div>
+      <div class="col-sm-1 hidden-xs"></div>
+              </div>
+      </div>-->
+
+      <div class="tab-pane fade coffee" id="menu_coffee">
+        <div class="col-sm-1 hidden-xs"></div>
+        <div class="col-sm-10 col-xs-12">
+          <img class="coffee-background" src="assets/img/menu_coffee-girl.jpg"></img>
+        </div>
+        <div class="col-sm-1 hidden-xs"></div>
+        <div class="row">
+          <div class="col-sm-1 hidden-xs"></div>
+          <div class="col-sm-7 col-xs-12">
+            <div class="row">
+              <div class="col-xs-12">
+                <blockquote class="blockquote-reverse"><em>
+                  <h4> Счастье охотнее заходит в тот дом, где всегда царит хорошее настроение... и вкусно пахнет кофе</h4></em></blockquote>
+              </div>
+            </div>
+            <div class="row">
+              <table class="table lead text-left">
+                <tr>
+                  <td>Ристретто &frasl; Ristretto</td>
+                  <td class="text-right">3p.</td>
+                </tr>
+                <tr>
+                  <td>Эспрессо &frasl; Espresso</td>
+                  <td class="text-right">3p.</td>
+                </tr>
+                <tr>
+                  <td>Лунго &frasl; Lungo</td>
+                  <td class="text-right">3p.</td>
+                </tr>
+                <tr>
+                  <td>Эспрессо Макиато &frasl; Espresso Macchiato</td>
+                  <td class="text-right">3p.</td>
+                </tr>
+                <tr>
+                  <td>Двойной эспрессо &frasl; Double Espresso</td>
+                  <td class="text-right">5p.</td>
+                </tr>
+                <tr>
+                  <td>Американо &frasl; Americano</td>
+                  <td class="text-right">3p.</td>
+                </tr>
+                <tr>
+                  <td>Капучино &frasl; Cuppuccino</td>
+                  <td class="text-right">3.8р.</td>
+                </tr>
+                <tr>
+                  <td>Флэт Уайт &frasl; Flat White</td>
+                  <td class="text-right">4.5p.</td>
+                </tr>
+                <tr>
+                  <td>Латте &frasl; Latte</td>
+                  <td class="text-right">4p.</td>
+                </tr>
+                <tr>
+                  <td>Мокка &frasl; Mocha</td>
+                  <td class="text-right">4.8p.</td>
+                </tr>
+                <tr>
+                  <td><span class="badge">ХИТ</span>Гляссе &frasl; Glace</td>
+                  <td class="text-right">4.8p.</td>
+                </tr>
+                <tr>
+                  <td>Какао &frasl; Cocoa</td>
+                  <td class="text-right">5p.</td>
+                </tr>
+                <tr>
+                  <td>Эспрессо Романо &frasl; Espresso Romano</td>
+                  <td class="text-right">3.8p.</td>
+                </tr>
+                <tr>
+                  <td>Эспрессо Кампано &frasl; Espresso Campano</td>
+                  <td class="text-right">3.5p.</td>
+                </tr>
+              </table>
+            </div>
+            <div class="col-sm-4 hidden-xs"></div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade drinks" id="menu_drinks"></div>
+      <div class="tab-pane fade snacks" id="menu_snacks"></div>
+      <div class="tab-pane fade sweets" id="menu_sweets"></div>
+    </div>
+  </div>
+</body>
+
 </html>

@@ -10,7 +10,7 @@ body {background-color: rgb(211, 211, 211);
    }
 
 img {
-    position: relative;
+    position: absolute;
     left: 0px;
     top: 20px;
     width: 680px;
@@ -18,12 +18,28 @@ img {
 
 .navigation {position: absolute;
     left: 0px;
-    top: 0px;
-
+    top: 0px;}
+@-webkit-keyframes translating {
+  0%   { -webkit-transform: translate(0, -200); transform: translate(0, -200); }
+   50%  { -webkit-transform: translate(0px, 70px); transform: translate(0px, 70px); }
+  75%  { -webkit-transform: translate(0, 50px); transform: translate(0, 50px); }
+  100% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
 }
+@keyframes translating {
+  0%   { -webkit-transform: translate(0, -200); transform: translate(0, -200); }
+   50%  { -webkit-transform: translate(0px, 70px); transform: translate(0px, 70px); }
+  75%  { -webkit-transform: translate(0, 50px); transform: translate(0, 50px); }
+  100% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
+}
+
+
+
 input:checked~img {
     display: block;
-}
+    -webkit-animation: translating 6s linear;
+            animation: translating 6s linear;
+          
+   }
 input:checked~label {
     display: block;
 }
@@ -36,6 +52,7 @@ input:checked~label:nth-of-type(3)>div {
 
 div label {display: none;}
 input~img {display: none;}
+   
 input {display: none;
     }
 
@@ -48,12 +65,14 @@ div>label:nth-of-type(2) {
     position: absolute;
     left:689px;
     top: 200px;
+      
 }
 div>label:nth-of-type(4) {
     position: absolute;
-    left: 0px;
+    text-align: right;
+    width: 400px;
+ left: 280px;
     top: 520px;
-
 }
 
 .krug>div {position: relative;
@@ -70,7 +89,7 @@ width: 20px;
 height: 20px;
 }
 .back {margin: auto;
-    position: relative;
+    position: absolute;
     width: 25px;
     height: 20px;
 }
@@ -97,7 +116,7 @@ height: 20px;
 }
 .next {margin: auto;
 margin-top: 20px;
-    position: relative;
+    position: absolute;
     width: 25px;
     height: 20px;
 }

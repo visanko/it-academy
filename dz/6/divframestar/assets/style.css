@@ -14,6 +14,7 @@ body {
 
 .TR {
     margin-right: 0;
+    margin-top: 0;
     width: 100px;
     height: 100px;
     float: right;
@@ -47,7 +48,7 @@ div {
     overflow: hidden;
     width: 80vw;
         margin: 0;
-        margin-right: 40px;
+        margin-right: 0px;
     background-image: url(img/ramkaY.png);
     background-repeat: repeat-y;
 }
@@ -71,7 +72,8 @@ margin-top: 0px;
 margin-bottom: 0px;
     padding-left: 60px;
 }
-.pustot { background-image: url(img/ramkaX.png);
+.pustot { 
+    background-image: url(img/ramkaX.png);
     background-repeat: repeat-x;
     margin-left: 100px;
     margin-right: 100px;
@@ -86,10 +88,13 @@ margin-bottom: 0px;
     height: 40px;
     float: none;
     }
-.pustor { background-image: url(img/ramkaY.png);
-    background-repeat: repeat-y;
-    margin-right: -43px;
-    width: 40px;
+.pravo{
+    
+    margin-right: -1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    width: 38px;
     height: 100vh;
     float: right;
        }

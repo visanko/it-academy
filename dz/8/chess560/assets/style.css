@@ -27,13 +27,16 @@ p:nth-of-type(2n+1) {
 }
 
 p:nth-of-type(2n) {
-    color: rgb(0, 0, 148)
+    color: rgb(0, 0, 255)
 }
 
 a:hover {
     font-size: 200%;
+    
 }
 
 p:nth-of-type(2n)::first-letter {
     color: rgb(60, 179, 90);
 }
+
+p>a{color: inherit;}
